@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Calculator</title>
+        <link rel="stylesheet" href="Mainstyle.css">
+        
+        
+    </head>
+    <body>
+        <header>Welcome to use the Calculator</header>
+        <button class="backhome" onclick="window.location.href='home.html'">Home</button>
+        <h1 style="text-align: center;">Quote Calculator</h1>
+        <img style="margin-left: 500px; padding: 10px;" src="calc.jpg" alt="Calculator" >
+        
+        <!-- elements of the calculator -->
+        <form id="quoteForm">
+            <label  class="labelhr">Hourly Rate:</label>
+            <select id="hourlyRate">
+                <option value="10">10 euro</option>
+                <option value="20">20 euro</option>
+                <option value="30">30 euro</option>
+            </select>
+
+            <label  class="labelhr">Number of Hours:</label>
+            <select id="numberOfHours">
+                <option value="1">1 hour</option>
+                <option value="2">2 hours</option>
+                <option value="3">3 hours</option>
+            </select>
+
+            <label class="labelhr">Currency:</label>
+            <select id="selectCurrency">
+
+                <option value="CNY">China Yuan</option>
+                <option value="JPY">Japanese Yuan</option>
+                <option value="USD">US Dollar</option>
+                
+            </select>
+
+
+
+            
+            <button class="quotebutton" type="button" onclick="calculate()"> Generate Quote <p>^ click this ^</p></button>
+            
+            <div id="result">
+            <p>The sum of quote is: </p>
+            <h2 id="sumOfQuote"></h2>
+            </div>
+
+        </form>
+        <script src="calculator.js"></script>
+
+        <!-- a hint for how to use the calculator -->
+        <script>
+            window.alert("Please choose Hourly Rate, Number of Hours, and Currency then 'click' the Generate Quote button.");
+        </script>
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+    </body>
+</html>

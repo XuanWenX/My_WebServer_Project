@@ -1,0 +1,178 @@
+/* responsive layout */
+nav li:hover{
+    background-color:aqua;
+}
+
+@media screen and(max-width:800px) {
+    section, aside{
+        width:100%;
+        padding: 0%;
+    }
+}
+
+@media screen and(max-width:400px) {
+    nav li{
+        float: none;
+        width: 100%;
+    }
+}
+
+.backhome{
+    background-color:aqua;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* style for home */
+#main_home{
+    text-align: center;
+    padding: auto;
+    background-color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+}
+img.logo {
+    height: 80px;
+    width: 180px;
+    margin-left: auto;
+}
+img.website image {
+    height: 80px;
+    width: 180px;
+    margin-left: auto;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+
+header{
+    text-align: center;
+    padding: auto;
+    background-color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+.secp{
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+aside{
+    width: 500px;
+    padding-left: 9px;
+    margin-left: 0.5 rem;
+    float: right;
+    font-size: 35px;
+    font-style:italic;
+    box-shadow: inset 5px 0 5px -5px aqua;
+    /* color: aqua; */
+}
+
+/* login part */
+#Login{
+    border: solid whitesmoke;
+    max-width: 300px;
+    text-align: left;
+}
+
+.Alabel{
+    font-weight: bold;
+    display: bold;
+}
+
+.AButton{
+    background-color: aquamarine;
+    border: none;
+    font-size: 30px;
+}
+
+.accountIn{
+    width: 290px;
+    height: 50px;
+}
+
+.AButton:hover{
+    background-color: aqua;
+}
+
+/* style for cooperative enter */
+.cimg{
+    width: 500px;
+    height: 300px;
+    margin: 90px;
+
+}
+
+
+/* style for about us */
+p.ap{
+    font-size: 21px;
+    text-align: left;
+    margin-left:9px ;
+}
+img.aimg{
+    height: 500px;
+    width: 750px;
+    margin-left: 400px;
+}
+
+/* style for the calculator */
+label{
+    font-style: italic;
+    background-color: aqua;
+    
+}
+#quoteForm{
+    text-align: center;
+}
+
+ #sumOfQuote{
+    background-color: gold;
+}
+.quotebutton{
+    width: 100px;
+    height: 40px;
+    background-color: goldenrod;
+}
+
+
+/* table style for contact us */
+
+ol#ol{
+    font-size: 25px;
+    display: inline-block;
+    padding-left:45%;
+}
+.oli{
+    text-align: center;
+    color: red;
+    
+}
+
+#table{
+    margin:auto;
+    
+}
+
+tr.row{
+    border: solid black;
+}
+.contact{
+    display: block;
+    margin: 0 auto;
+}
+
